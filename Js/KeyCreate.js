@@ -48,7 +48,7 @@ const postFetch = (object) => {
 };
 let makeCard = async function (key) {
   let mapName = await viewByMapId(key.map.id);
-  debugger;
+
   console.log(mapName);
   let card = document.createElement("div");
   card.className = "card col-3";
